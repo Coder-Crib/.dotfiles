@@ -1,6 +1,6 @@
 set nocompatible
 set encoding=utf-8
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'Yggdroot/indentLine'
@@ -13,11 +13,9 @@ Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'crusoexia/vim-monokai'
-Plug 'crusoexia/vim-javascript-lib'
-Plug 'pangloss/vim-javascript'
+Plug 'crusoexia/vim-javascript-lib' | Plug 'pangloss/vim-javascript'
 Plug 'vim-syntastic/syntastic'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 call plug#end()
 

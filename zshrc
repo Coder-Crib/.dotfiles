@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/warlord/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
 
 # Disable insecure completions
@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Antigen
-source ./antigen.zsh
+source ~/antigen.zsh
 
 ## Load the oh-my-zsh's  library
 antigen use oh-my-zsh
@@ -126,4 +126,4 @@ antigen theme powerlevel10k
 
 # Tell Antigen that you're done.
 antigen apply
-source ./.purepower
+source ~/.purepower
