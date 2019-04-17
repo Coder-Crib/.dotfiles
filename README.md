@@ -1,2 +1,2 @@
 # .dotfiles
-Has my personal vim &amp; tmux config
+Has my personal vim &amp; zsh config
