@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/lib/ruby/gems/2.6.0/bin:/usr/local/opt/ruby/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -10,6 +10,9 @@ export ZSH_DISABLE_COMPFIX="true"
 
 # Theme Settings
 export PURE_POWER_MODE=fancy  
+
+# Change EDITOR to neovim(nvim)
+export EDITOR=nvim
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
